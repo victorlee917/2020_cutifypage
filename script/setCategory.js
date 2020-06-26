@@ -1,4 +1,4 @@
-import categoryData from "/data/categoryData.js";
+import categoryData from "https://victorlee917.github.io/2020_cutifypage/data/categoryData.js";
 
 const setCategory = () => {
   const categoryBox = document.createElement("div");

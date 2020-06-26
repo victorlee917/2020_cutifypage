@@ -1,4 +1,4 @@
-import bannerData from "/data/bannerData.js";
+import bannerData from "https://victorlee917.github.io/2020_cutifypage/data/bannerData.js";
 
 const setBanner = (value = "All") => {
   const bannerBox = document.createElement("div");
