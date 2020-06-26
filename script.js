@@ -1,8 +1,8 @@
-import setCategory from "script/setCategory.js";
-import categoryData from "data/categoryData.js";
+import setCategory from "/script/setCategory.js";
+import categoryData from "/data/categoryData.js";
 
-import setBanner from "script/setBanner.js";
-import setContents from "script/setContents.js";
+import setBanner from "/script/setBanner.js";
+import setContents from "/script/setContents.js";
 
 setCategory();
 setBanner();
