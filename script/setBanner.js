@@ -1,4 +1,4 @@
-import bannerData from "/data/bannerData.js";
+import bannerData from "data/bannerData.js";
 
 const setBanner = (value = "All") => {
   const bannerBox = document.createElement("div");
