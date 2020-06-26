@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+}
+
+#container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+#goUP {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background-color: rgba(255, 255, 255, 1);
+  bottom: 50px;
+  right: 50px;
+  z-index: 3000;
+  -webkit-box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  -moz-box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  transition: 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 700px) {
+  #goUP {
+    bottom: 30px;
+    right: 30px;
+  }
+}
+
+#goUP:hover > #goUP_icon1 {
+  opacity: 0;
+}
+
+#goUP:hover > #goUP_icon2 {
+  opacity: 1;
+}
+
+#goUP_icon1 {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  opacity: 0.2;
+}
+
+#goUP_icon2 {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  opacity: 0;
+}
+
+#box {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 1300px) {
+  #box {
+    width: 100%;
+  }
+}
+
+#header {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#category_here {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#category {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: scroll;
+}
+
+#banner_here {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contents_here {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  height: auto;
+}
+
+.contents {
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1300px) {
+  .contents {
+    width: 990px;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .contents {
+    width: 795px;
+  }
+}
+
+@media screen and (max-width: 895px) {
+  .contents {
+    width: 655px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .contents {
+    width: 100%;
+  }
+}
