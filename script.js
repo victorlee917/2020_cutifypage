@@ -1,8 +1,8 @@
-import setCategory from "https://victorlee917.github.io/2020_cutifypage//script/setCategory.js";
-import categoryData from "https://victorlee917.github.io/2020_cutifypage//data/categoryData.js";
+import setCategory from "https://victorlee917.github.io/2020_cutifypage/script/setCategory.js";
+import categoryData from "https://victorlee917.github.io/2020_cutifypage/data/categoryData.js";
 
-import setBanner from "https://victorlee917.github.io/2020_cutifypage//script/setBanner.js";
-import setContents from "https://victorlee917.github.io/2020_cutifypage//script/setContents.js";
+import setBanner from "https://victorlee917.github.io/2020_cutifypage/script/setBanner.js";
+import setContents from "https://victorlee917.github.io/2020_cutifypage/script/setContents.js";
 
 setCategory();
 setBanner();
