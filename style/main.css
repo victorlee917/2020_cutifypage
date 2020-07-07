@@ -20,6 +20,13 @@ body {
   margin-bottom: 100px;
 }
 
+@media screen and (max-width: 440px) {
+  #box {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
 @keyframes start {
   from {
     opacity: 0;
@@ -48,6 +55,12 @@ body {
   align-items: center;
 }
 
+@media screen and (max-width: 440px) {
+  #stores {
+    flex-direction: column;
+  }
+}
+
 .card {
   width: 180px;
   height: 60px;
@@ -61,6 +74,13 @@ body {
 
 .card:first-child {
   margin-right: 10px;
+}
+
+@media screen and (max-width: 440px) {
+  .card:first-child {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
 }
 
 .card:hover {
