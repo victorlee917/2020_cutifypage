@@ -63,6 +63,11 @@ body {
   display: flex;
 }
 
+.hl {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
 @media screen and (max-width: 440px) {
   #long {
     display: none;
@@ -72,6 +77,7 @@ body {
 @media screen and (max-width: 440px) {
   #short {
     display: flex;
+    flex-direction: column;
   }
 }
 
