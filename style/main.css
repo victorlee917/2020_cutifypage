@@ -17,6 +17,7 @@ body {
   align-items: center;
   animation: start 1.5s;
   position: relative;
+  margin-bottom: 100px;
 }
 
 @keyframes start {
