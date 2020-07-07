@@ -55,6 +55,26 @@ body {
   line-height: 2;
 }
 
+#short {
+  display: none;
+}
+
+#long {
+  display: flex;
+}
+
+@media screen and (max-width: 440px) {
+  #long {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  #short {
+    display: flex;
+  }
+}
+
 @media screen and (max-width: 440px) {
   #desc {
     margin-bottom: 30px;
