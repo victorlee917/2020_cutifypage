@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+}
+
+#container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: start 1.5s;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 440px) {
+  #box {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+@keyframes start {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#header > img {
+  height: 120px;
+}
+
+@media screen and (max-width: 440px) {
+  #header > img {
+    height: 90px;
+  }
+}
+
+#desc {
+  margin-top: 30px;
+  font-size: 16px;
+  margin-bottom: 50px;
+  text-align: center;
+  line-height: 2;
+}
+
+#short {
+  display: none;
+}
+
+#long {
+  display: flex;
+}
+
+.hl {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 440px) {
+  #long {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  #short {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  #desc {
+    margin-bottom: 30px;
+  }
+}
+
+#stores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 440px) {
+  #stores {
+    flex-direction: column;
+  }
+}
+
+.card {
+  width: 180px;
+  height: 60px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+  border: 1px solid rgba(223, 225, 229, 0.7);
+  opacity: 0.7;
+}
+
+.card:first-child {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 440px) {
+  .card:first-child {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  -moz-box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  opacity: 1;
+}
+
+.left {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left > img {
+  height: 32px;
+  width: 32px;
+}
+
+.right {
+  width: 120px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
